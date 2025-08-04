@@ -585,7 +585,7 @@ async def withdraw(ctx, amount):
             return await ctx.send(embed=embed)
     
     if amount <= 0 or economy[user_id]['bank'] < amount:
-        embed = discord.Embed(title="🏦 Bank", description="Invalid withdrawal amount!"
+        embed = discord.Embed(title="🏦 Bank", description="Invalid withdrawal amount!")
 
 # Example short command:
 @bot.command(name='ping')
